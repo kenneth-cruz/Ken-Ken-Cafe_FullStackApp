@@ -1,0 +1,29 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background-color: beige;
+  background-image: url(img/coffeeFloat.gif);
+  /* background-size: 50%; */
+}
+img{
+  height: 200px;
+}
+
+.jumbotron{
+  background-image: url(img/coffeeFields.jpg);
+  background-size: cover;
+
+}
+#title{
+  color: black;
+}
+#loginSignUp{
+  color: white;
+}
+/* .CashierTitle{
+  text-align: center;
+} */
+.CashierContainer{
+  background-color: beige;
+  text-align:center;
+}

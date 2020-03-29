@@ -1,0 +1,14 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background-color: lightblue;
+  background-image: url(img/coffeeLoginBackground.jpg);
+  background-size: cover;
+}
+img{
+  height: 200px;
+}
+
+.container{
+  margin-top: 100px;
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <title>KenKen's Kafé</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+
+    <div class="jumbotron text-center">
+        <h1 id = "title">KenKen's Kafé</h1>
+        <img src="img/kawaiiCoffee.jpg" alt="21 Savage Profile Photo">
+
+        <p id="loginSignUp">Baristas: Login or Signup </p>
+        <p id="loginSignUp"> To See Orders Pending/Made</p>
+        <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
+        <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a>
+
+    </div>
+
+    <section class="CashierContainer">
+
+
+    <div class="CashierTitle">
+      <h2>Cashier: Input Order Below</h2>
+    </div>
+    <form class="CashierTitle"action="/orders" method="POST">
+      <input type="text" value="" placeholder="customer name" name="name">
+      <input type="text" placeholder="type of coffee" name="order" >
+      <br>
+      <label for="espresso">Espresso Shot</label>
+      <input type="radio" placeholder="Espresso Shot" name="espresso">
+      <label for="caramel">Caramel Pump</label>
+      <input type="radio" placeholder="Caramel Pump" name="caramel">
+      <label for="sugar">sugar</label>
+      <input type="radio" placeholder="sugar" name="sugar">
+      <label for="cream">Cream</label>
+      <input type="radio" placeholder="Cream" name="cream">
+      <label for="milk">Milk</label>
+      <input type="radio" placeholder="Milk" name="milk">
+      <br>
+      <select class="Size" name="size">
+        <option  value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+    </section>
+
+  </div>
+</body>
+</html>
