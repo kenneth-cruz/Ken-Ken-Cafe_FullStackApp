@@ -3,7 +3,6 @@ body{
   word-wrap:break-word;
   background-color: beige;
   background-image: url(img/coffeeFloat.gif);
-  /* background-size: 50%; */
 }
 img{
   height: 200px;
@@ -20,9 +19,7 @@ img{
 #loginSignUp{
   color: white;
 }
-/* .CashierTitle{
-  text-align: center;
-} */
+
 .CashierContainer{
   background-color: beige;
   text-align:center;
