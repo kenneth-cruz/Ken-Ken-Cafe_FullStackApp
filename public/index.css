@@ -1,20 +1,20 @@
 body{
   padding-top:80px;
   word-wrap:break-word;
-  background-color: beige;
-  background-image: url(img/coffeeFloat.gif);
+  background-color: #00C49A;
 }
 img{
-  height: 200px;
+  max-height: 300px;
 }
 
 .jumbotron{
-  background-image: url(img/coffeeFields.jpg);
   background-size: cover;
+  background-color: #FFC2B4;
 
 }
 #title{
-  color: black;
+  color: #13585C;
+  font-family: 'Fugaz One', cursive;
 }
 #loginSignUp{
   color: white;
@@ -23,4 +23,8 @@ img{
 .CashierContainer{
   background-color: beige;
   text-align:center;
+}
+
+.container .jumbotron {
+    border-radius: 250px;
 }
