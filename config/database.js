@@ -1,4 +1,4 @@
 module.exports = {
-    'url' : 'mongodb+srv://demo:demo@barista-euexy.mongodb.net/test?retryWrites=true&w=majority',
-    'dbName': 'orders'
+    'url' : 'mongodb+srv://demo:demo@cluster0-lmhr1.mongodb.net/test?retryWrites=true&w=majority',
+    'dbName': 'fruits'
 };

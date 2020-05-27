@@ -14,12 +14,12 @@
 
     <div class="jumbotron text-center">
         <h1 id = "title">EZ.Smoothie Shack</h1>
-        <img src="img/juices_fruits.png" alt="Basket of Fruits">
+        <img src="/img/fruitBasket.png" alt="Basket of Fruits">
 
-        <p id="loginSignUp">Baristas: Login or Signup </p>
-        <p id="loginSignUp"> To See Orders Pending/Made</p>
-        <a href="/login" class="btn btn-default"><span class="fa fa-user"></span>Login</a>
-        <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span>Signup</a>
+        <p id="loginSignUpBaristas">Baristas: </p>
+        <p id="loginSignUp"> To See Orders Pending or Made</p>
+        <button class="loginButton"> <a href="/login"> login </a> </button>
+        <button class="signUpButton"> <a href="/signup"> SignUp </a> </button>
 
     </div>
 
@@ -31,17 +31,17 @@
     </div>
     <form class="CashierTitle"action="/orders" method="POST">
       <input type="text" value="" placeholder="customer name" name="name">
-      <input type="text" placeholder="type of coffee" name="order" >
+      <input type="text" placeholder="type of smoothie" name="order" >
       <br>
-      <label for="espresso">Espresso Shot</label>
+      <label for="espresso">Banana</label>
       <input type="radio" placeholder="Espresso Shot" name="espresso">
-      <label for="caramel">Caramel Pump</label>
+      <label for="caramel">Strawberry</label>
       <input type="radio" placeholder="Caramel Pump" name="caramel">
-      <label for="sugar">sugar</label>
+      <label for="sugar">Mango</label>
       <input type="radio" placeholder="sugar" name="sugar">
-      <label for="cream">Cream</label>
+      <label for="cream">Blueberry</label>
       <input type="radio" placeholder="Cream" name="cream">
-      <label for="milk">Milk</label>
+      <label for="milk">Kale</label>
       <input type="radio" placeholder="Milk" name="milk">
       <br>
       <select class="Size" name="size">
